@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
-import Navbar from '../src/components/Navbar';
-import Footer from '../src/components/Footer';
-import Home from '../src/components/Home';
+import Navbar from '../src/components/Navbar'; // Asegúrate de que esta ruta es correcta
+import Footer from '../src/components/Footer'; // Asegúrate de que esta ruta es correcta
+import Home from '../src/components/Home'; // Asegúrate de que esta ruta es correcta
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="container">
         <Home />
-      </div>
       <Footer />
     </div>
   );
