@@ -1,4 +1,4 @@
-import "../components/Home.css";
+import "../styles/Home.css";
 import imghome from "../assets/home2.png";
 
 const Home = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../components/Footer.css";
+import "../styles/Footer.css";
 import icon from "../assets/NeighborSale.png";
 
 const Footer = () => (

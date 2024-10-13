@@ -1,5 +1,5 @@
 import React from 'react';
-import "../components/Navbar.css";
+import "../styles/Navbar.css";
 import icon from "../assets/NeighborSale-Home.png";
 
 function Navbar() {

@@ -40,7 +40,7 @@
 }
 
 .footer-social .icons {
-    font-size: 24px;
+    font-size: 25px;
     color: #F4F6FF;
     margin-right: 10px;
     transition: color 0.3s ease;
@@ -52,7 +52,7 @@
 
 .footer-copy {
     color: #F3C623;
-    font-size: 12px;
+    font-size: 15px;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -61,7 +61,7 @@
 
 .subt {
     color: #F3C623;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
