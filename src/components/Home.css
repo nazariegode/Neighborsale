@@ -1,0 +1,17 @@
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+.display-1{
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    right: 30px;
+    color: #F3C623 ; /* Color de los enlaces */
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    background-color: #10375c74;
+    border-radius: 10px;
+}
