@@ -4,24 +4,78 @@
 }
 
 .navbar {
-    background-color: #10375C; /* Cambia el color de fondo de la navbar */
-    padding: 10px 20px; /* Añadido padding */
+    background-color: #10375C;
+    /* Cambia el color de fondo de la navbar */
+    padding: 10px 20px;
+    /* Añadido padding */
 }
 
 .nav-link {
-    color: #F3C623 !important; /* Color de los enlaces */
-    font-size: 18px !important;   
-    border: none !important; 
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    color: #F3C623 !important;
+    font-size: 18px !important;
+    border: none !important;
     font-family: "Dosis", sans-serif;
     font-weight: 600 !important;
-    margin-left: 15px; /* Añadir margen entre los elementos */
+    display: inline-block;
+    padding: 5px 0px;
+    position: relative;
+    width: 100%;
 }
 
-.nav-link:hover {
-    color: #EB8317 !important; /* Color de los enlaces al pasar el mouse */
-    transition: color 0.3s ease, font-size 0.3s ease;
-    border: none !important; 
-
+.nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 10%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
 }
 
+.nav-link:hover:after {
+    width: 50%;
+    left: 25%;
+}
 
+@media (min-width: 360px) and (max-width: 933px) {
+
+    .nav-link {
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 0.15em;
+        color: #F3C623 !important;
+        font-size: 18px !important;
+        border: none !important;
+        font-family: "Dosis", sans-serif;
+        font-weight: 600 !important;
+        display: inline-block;
+        padding: 0px 0px;
+        position: relative;
+        justify-content: end;
+        margin:15px 0px;
+        width: auto;
+    }
+    .nav-link:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 0%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+    
+    .nav-link:hover:after {
+        width: 50%;
+        left: 0%;
+    }
+  }

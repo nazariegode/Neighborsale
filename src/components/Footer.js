@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Importa Link
 import "../styles/Footer.css";
 import icon from "../assets/NeighborSale.png";
 
@@ -14,11 +15,11 @@ const Footer = () => (
         <div className="col-md-3 text-center">
           <h5 className="subt mb-3">Más Información</h5>
           <ul className="footer-links list-unstyled">
-            <li><a to="/#" className="footer-link">Preguntas Frecuentes</a></li>
-            <li><a to="/#" className="footer-link">Contáctanos</a></li>
-            <li><a to="/#" className="footer-link">¿Por qué escogernos?</a></li>
-            <li><a to="/#" className="footer-link">Calificaciones</a></li>
-            <li><a to="/#" className="footer-link">Descarga nuestra App</a></li>
+            <li><Link to="/preguntas-frecuentes" className="footer-link">Preguntas Frecuentes</Link></li> {/* Reemplazado por Link */}
+            <li><Link to="/contactanos" className="footer-link">Contáctanos</Link></li> {/* Reemplazado por Link */}
+            <li><Link to="/porque-escogernos" className="footer-link">¿Por qué escogernos?</Link></li> {/* Reemplazado por Link */}
+            <li><Link to="/calificaciones" className="footer-link">Calificaciones</Link></li> {/* Reemplazado por Link */}
+            <li><a href="#Download" className="footer-link">Descarga nuestra App</a></li> {/* Se queda como <a> */}
           </ul>
         </div>
         

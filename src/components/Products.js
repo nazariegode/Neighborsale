@@ -17,7 +17,7 @@ const itemVariants = {
 const Contact = () => {
   const { ref, inView } = useInView({
     triggerOnce: false, // Para que se dispare cada vez que el componente entre en vista
-    threshold: 0.7,     // Se activa cuando el 70% del componente es visible
+    threshold: 0.2,     // Se activa cuando el 20% del componente es visible
   });
 
   return (

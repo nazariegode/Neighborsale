@@ -8,18 +8,20 @@ import Footer from '../src/components/Footer'; // Asegúrate de que esta ruta es
 import Home from '../src/components/Home'; // Asegúrate de que esta ruta es correcta
 import Download from './components/Download';
 import Contact from './components/Contact';
+import Nosotros from './components/Nosotros';
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <>
       <Navbar />
-        <Home />
-        <Download/>
-        <Contact/>
+      <Home />
+      <Nosotros/>
+      <Download />
+      <Contact />
       <Footer />
-    </div>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App

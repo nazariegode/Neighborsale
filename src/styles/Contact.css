@@ -1,24 +1,45 @@
+.contact-container {
+  padding: 200px 20px;
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #F3C623;
+  color: #10375C;
+}
+
+.iconn {
+  color: #EB8317;
+}
+
+
 .right-side {
-    width: 50%;
-    background-color: white;
-    padding: 20px;
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.titulos {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #10375C;
+  font-weight: bold;
+}
+
+
+@media (min-width: 360px) and (max-width: 933px) {
+
+  .contact-container {
+    padding: 40px 20px;
   }
 
-  h1 {
-    font-weight: bold;
-  }
 
-  .btn {
-    background-color: #fd8d14;
-    color: #000000;
-    border: #ffffff;
-    font-family: "Nunito", serif;
-    font-weight: 300;
-    font-style: normal;
-    border-radius: 4px;
-  }
-
-  .btn:hover {
-    background-color: #000000;
-    color: #ffffff;
-  }
+}
